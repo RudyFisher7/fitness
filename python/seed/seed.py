@@ -12,7 +12,9 @@ for i in range(len(args)):
 # the order of this list is important
 modules: list[ModuleType] = []
 
-modules.append(util.import_migration_module(args[0], "m001_create_tables"))
+modules.append(util.import_seed_module(args[0], "m002_seed_exercise"))
+modules.append(util.import_seed_module(args[0], "m003_seed_exercise_demo"))
+modules.append(util.import_seed_module(args[0], "m004_seed_user"))
 
 connection: sqlite3.Connection = sqlite3.connect("database.db")
 

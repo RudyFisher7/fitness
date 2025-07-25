@@ -1,8 +1,6 @@
 from enum import IntFlag
 
 class WorkTypes(IntFlag):
-    DURATION = 1 << 0
-    DISTANCE = 1 << 1
-    REPS = 1 << 2
-    WEIGHT = 1 << 3
-    BAND_COLOR = 1 << 4
+    DURATION = 1 << 0 # seconds
+    DISTANCE = 1 << 1 # meters
+    REPS_AND_RESISTANCE = 1 << 2 # count and kg/resistance band color

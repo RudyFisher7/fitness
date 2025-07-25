@@ -5,5 +5,5 @@ CREATE TABLE routine (
     name TEXT,
     description TEXT,
     user_id INTEGER,
-    FOREIGN KEY(user_id) REFERENCES user(id)
+    FOREIGN KEY(user_id) REFERENCES user(id) ON DELETE CASCADE
 );

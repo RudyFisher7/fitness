@@ -1,8 +1,9 @@
-from enum import IntFlag
+from enum import Enum
 
-class Equipment(IntFlag):
-    NONE = 0
-    BARBELL = 1 << 0
-    DUMBBELL = 1 << 1
-    RESISTANCE_BAND = 1 << 2
-    KETTLEBELL = 1 << 3
+class Equipment(Enum):
+    NONE = 0 # body weight
+    RESISTANCE_BAND = 1
+    BARBELL = 2
+    DUMBBELL = 3
+    KETTLEBELL = 4
+    WEIGHTED_WEARABLES = 5

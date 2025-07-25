@@ -3,6 +3,5 @@ CREATE TABLE exercise (
 	name TEXT,
 	description TEXT,
 	muscle_groups INTEGER, -- see domain logic for bit flag
-	work_types INTEGER, -- see domain logic for bit flag
-	equipment INTEGER -- see domain logic for bit flag
+	work_types INTEGER -- see domain logic for bit flag
 );

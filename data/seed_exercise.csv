@@ -1,12 +1,12 @@
-name,description,muscle_groups,work_types,equipment
-Push-Up,Bodyweight chest and triceps exercise,26,12,0
-Pull-Up,Upper body pulling motion,640,12,0
-Bicep Curl,Isolated biceps movement using dumbbells,1,12,2
-Squat,Compound lower body exercise with barbell,12288,12,1
-Plank,Core stabilizing isometric hold,1536,1,0
-Deadlift,Full-body posterior chain lift with barbell,22528,28,1
-Shoulder Press,Overhead pressing movement with dumbbells,52,12,2
-Band Row,Back-strengthening exercise using resistance bands,1024,18,4
-Crunch,Abdominal isolation movement,512,4,0
-Calf Raise,Targeted exercise for calves with dumbbells,16384,4,2
-Kettlebell Swing,Explosive posterior chain movement,24576,1,8
+name,description,muscle_groups,work_types
+Push-Up,Bodyweight chest and triceps exercise,26,12
+Pull-Up,Upper body pulling motion,640,12
+Bicep Curl,Isolated biceps movement using dumbbells,1,12
+Squat,Compound lower body exercise with barbell,12288,12
+Plank,Core stabilizing isometric hold,1536,1
+Deadlift,Full-body posterior chain lift with barbell,22528,28
+Shoulder Press,Overhead pressing movement with dumbbells,52,12
+Band Row,Back-strengthening exercise using resistance bands,1024,18
+Crunch,Abdominal isolation movement,512,4
+Calf Raise,Targeted exercise for calves with dumbbells,16384,4
+Kettlebell Swing,Explosive posterior chain movement,24576,1

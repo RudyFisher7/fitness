@@ -7,7 +7,7 @@ tables: list[str] = [
     "exercise",
     "exercise_demo",
     "routine",
-    "routine_exercise",
+    "routine_exercise_set",
 ]
 
 def upgrade(connection: sqlite3.Connection) -> bool:
