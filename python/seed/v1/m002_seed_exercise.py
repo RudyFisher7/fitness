@@ -7,8 +7,8 @@ def upgrade(connection: sqlite3.Connection) -> bool:
     result = util.seed_from_csv(
         connection,
         '''
-        INSERT INTO exercise (name, description, muscle_groups, work_types, equipment)
-        VALUES (?, ?, ?, ?, ?);
+        INSERT INTO exercise (name, description, muscle_groups, work_types)
+        VALUES (?, ?, ?, ?);
         ''',
         "data/seed_exercise.csv",
     )
