@@ -7,10 +7,10 @@ def upgrade(connection: sqlite3.Connection) -> bool:
     result = util.seed_from_csv(
         connection,
         '''
-        INSERT INTO exercise (name, description, muscle_groups, work_types, photo_url)
-        VALUES (?, ?, ?, ?, ?);
+        INSERT INTO routine_exercise_set (routine_id, exercise_id, index_in_routine, equipment, duration, distance, reps, resistance)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?);
         ''',
-        "data/seed_exercise.csv",
+        "data/seed_routine_exercise_set.csv",
     )
 
     return result
@@ -19,7 +19,7 @@ def upgrade(connection: sqlite3.Connection) -> bool:
 def downgrade(connection: sqlite3.Connection) -> bool:
     result: bool = True
 
-    connection.execute("DELETE FROM exercise;")
+    connection.execute("DELETE FROM routine_exercise_set;")
     connection.commit()
 
     return result

@@ -15,6 +15,8 @@ modules: list[ModuleType] = []
 modules.append(util.import_seed_module(args[0], "m002_seed_exercise"))
 modules.append(util.import_seed_module(args[0], "m003_seed_exercise_demo"))
 modules.append(util.import_seed_module(args[0], "m004_seed_user"))
+modules.append(util.import_seed_module(args[0], "m005_seed_routine"))
+modules.append(util.import_seed_module(args[0], "m006_seed_routine_exercise_set"))
 
 connection: sqlite3.Connection = sqlite3.connect("database.db")
 
