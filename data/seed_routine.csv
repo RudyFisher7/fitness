@@ -1,6 +1,41 @@
 time_started,duration_seconds,name,description,user_id
-2025-07-26T07:00:00,1800,Morning Blast,Full-body warm-up and strength starter,1
-2025-07-26T18:30:00,2700,Evening Strength,Heavy lifting with core finisher,4
-2025-07-27T06:45:00,1500,Quick Core,Focused core routine for busy mornings,3
-2025-07-27T20:00:00,3600,Total Body Burn,Long-form hypertrophy workout,2
-2025-07-28T17:15:00,2100,Back and Bi,Pull-based training session,6
+2025-07-25T06:00:00,1800,Morning Blast,Full-body warm-up and strength starter,1
+2025-07-25T18:00:00,2400,Core Ignite,Fast-paced ab training with planks,2
+2025-07-26T07:30:00,2700,Push Power,Chest and shoulders with heavy loads,3
+2025-07-26T19:15:00,2100,Back to Basics,Upper body pull session,4
+2025-07-27T06:45:00,1500,Quick Core,Focused core routine for busy mornings,5
+2025-07-27T20:00:00,3600,Total Body Burn,Long-form hypertrophy workout,6
+2025-07-28T07:00:00,1800,Full Body Starter,A balanced intro workout with compound moves,1
+2025-07-28T19:00:00,1500,Explosive Push Day,"Focus on chest, triceps, shoulders",2
+2025-07-29T06:15:00,900,Morning Mobility Flow,Stretch-focused with low resistance,3
+2025-07-29T17:45:00,2100,Isolation Analysis,Study on single-joint exercises for recovery,4
+2025-07-30T06:30:00,1800,Leg Day Rush,"Squat, lunge, and step-ups in sequence",5
+2025-07-30T18:30:00,1500,Shoulder Shred,Quick deltoid burnout,6
+2025-07-31T07:00:00,2700,Hypertrophy Circuit,High volume reps for full body,1
+2025-07-31T19:00:00,1800,Pull Focus,Lat and bicep emphasis,2
+2025-08-01T06:00:00,1500,Speed Core,High tempo crunches and twists,3
+2025-08-01T18:15:00,2100,Push & Pull,Chest/back super sets,4
+2025-08-02T07:15:00,2400,Posterior Chain Builder,Hamstring and glute work,5
+2025-08-02T19:30:00,2700,Barbell Strength,Classic lifts with progressive loads,6
+2025-08-03T06:45:00,1200,Yoga Recovery,Post-workout stretch sequence,1
+2025-08-03T18:45:00,1800,Chest Press Ladder,Resistance ladder reps,2
+2025-08-04T07:30:00,1500,Band Burn,Resistance bands for glute activation,3
+2025-08-04T17:30:00,900,Wrist & Grip Training,Forearm endurance booster,4
+2025-08-05T06:15:00,2100,Leg Isolation Day,Machine-focused lower body,5
+2025-08-05T18:30:00,2700,Deadlift Domination,Pulling mechanics in focus,6
+2025-08-06T06:30:00,1800,Dumbbell Density,Dumbbell-only high-effort sets,1
+2025-08-06T19:00:00,1500,Triceps Torch,Cable and band burnouts,2
+2025-08-07T07:00:00,2400,Functional Core,Stability-focused ab moves,3
+2025-08-07T17:45:00,900,Neck & Trap Stabilization,Preventative mobility,4
+2025-08-08T06:00:00,2700,Leg Strength+,Heavy squats and sled pushes,5
+2025-08-08T19:15:00,1800,Total Push,Compound upper push lifts,6
+2025-08-09T06:45:00,2100,Lower Load Mobility,Recovery strength movements,1
+2025-08-09T18:00:00,1500,Calves & Core,Focus on balance and ankle control,2
+2025-08-10T07:30:00,2700,Upper Burn,Chest and back hypertrophy,3
+2025-08-10T17:30:00,1800,Speed Strength Training,Power output emphasis,4
+2025-08-11T06:30:00,900,Chair Mobility,Gentle intro movement session,5
+2025-08-11T18:45:00,2400,Machine Mix-Up,Full gym circuit training,6
+2025-08-12T07:00:00,1500,Box Jump Blitz,Explosiveness and plyos,1
+2025-08-12T19:00:00,1800,Glute Sculptor,Targeted posterior sets,2
+2025-08-13T06:00:00,2100,Pull-Focused Power,Barbell rows and chin-ups,3
+2025-08-13T18:15:00,2400,Rotation & Reach,Mobility with band resistance,4
