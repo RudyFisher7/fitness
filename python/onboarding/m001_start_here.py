@@ -44,12 +44,12 @@ my_list_2: list[str] = ["hi", "typed", "world", 2, 4.4] # str is just a suggesti
 print(my_list.__class__)
 print(my_list[0])
 
-my_tuple: tuple = (4, 5, 6, "hi tuple")
+my_tuple: tuple = (4, 5, 6, "hi tuple") # tuples are like lists but are immutable
 my_tuple_2: tuple[float] = (3.14, 6.78, 1.2345)
 my_range: range = range(0, 100)
 print(my_range.__class__)
 
-# Prints every third element, starting at 0 (the first element)
+# Prints every third element
 for i in my_range:
     if i % 3 == 0:
         print(i)
@@ -67,6 +67,14 @@ my_dict_2: dict[str, str] = {
     1:"key is not a str like suggested",
 }
 
+print(my_dict.__class__)
+print(my_dict_2["name"])
+for value in my_dict_2.values():
+    print(value)
+
+for key in my_dict_2.keys():
+    print(f"{key} => {my_dict_2[key]}")
+
 # Set types
 my_set: set = {
     "thing",
@@ -75,4 +83,18 @@ my_set: set = {
     3.4,
 }
 
-my_frozen_set: frozenset = {"frozen", "so cold", "can't move..."}
+my_set_2: set = {
+    "thing",
+    "not in first set",
+    2,
+    4.5,
+    3.4,
+}
+
+print(my_set.__class__)
+print(my_set | my_set_2) # union (like a bitwise or)
+print(my_set & my_set_2) # intersection (like a bitwise and)
+print(my_set - my_set_2) # difference (prints what is in set 1 but not in set 2)
+print(my_set_2 - my_set) # difference (prints different elements than the previous difference)
+
+my_frozen_set: frozenset = {"frozen", "so cold", "can't move..."} # this is just an immutable set
