@@ -34,7 +34,7 @@ my_functor_2() # this only has 1 concatenation, like my_functor before
 
 
 class Ship:
-    is_buoyant = True # class scope
+    is_buoyant = True # class scope, can access cls.<thing> but doesn't have access to any self.<thing>
 
     def __init__(self, in_name: str):
         self.name = in_name
@@ -43,7 +43,7 @@ class Ship:
         return self.name # instance scope (can access self keywork)
 
 class SmallShip(Ship): # this class has access to all its super's stuff, but not vice versa
-    class Size(Enum):
+    class Size(Enum): # this inner class only can access its own stuff, not the outer class stuff
         SMALL = 0
         MEDIUM = 1
         LARGE = 2
@@ -52,3 +52,10 @@ class SmallShip(Ship): # this class has access to all its super's stuff, but not
         super().__init__(in_name)
 
         self.size = in_size
+
+        print(self.name)
+        print(self.get_name())
+        print(self.size)
+
+
+small_ship = SmallShip("Interceptor", SmallShip.Size.SMALL)
