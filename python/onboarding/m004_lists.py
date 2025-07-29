@@ -1,3 +1,16 @@
+import pdb
+# For using pdb:
+# Run this script normally using python command. Add a breakpoint() call where you want to pause execution.
+# Note: you can also use an IDE's debugger tools and get a more visual experience.
+# Some commands:
+# n - step over
+# s - step into
+# q - quit
+# l - list source code region
+# b <int> - set breakpoint at <int> line
+# w - show stack trace
+# c - continue program execution until next breakpoint
+
 # List comprehension
 my_ints: list[int] = [x for x in range(4, 104)]
 
@@ -52,5 +65,6 @@ def my_infinite_fib():
 
 infinite_fib = my_infinite_fib()
 for i in range(20):
+    # breakpoint() # uncomment this line to use pdb to breakpoint here
     print(next(infinite_fib), end=", ")
 print()
