@@ -2,6 +2,14 @@
 
 A project I use for refreshing myself in SQL and Python.
 
+It manages/seeds a database of exercises and users for tracking progress.
+
+## Current state of project
+Still working to achieve v1.0.
+
+## Hi, Recruiter! :wave:
+Please take a look at the python/onboarding/ folder for a demo of basic Python concepts and usage with Pandas and NumPy.
+
 ## Getting started
 1. Install Python with pip.
 2. At the root of this project, run "pip install -r python/requirements.txt".
