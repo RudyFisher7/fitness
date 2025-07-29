@@ -23,14 +23,14 @@ def my_outer_function():
     my_inner_function() # prints the outer message
     return my_inner_function
 
-my_functor = my_outer_function() # prints the outer message
+my_func = my_outer_function() # prints the outer message
 
-my_functor() # does the concatenated string
+my_func() # does the concatenated string
 
-my_functor_2 = my_outer_function() # this starts over with the original outer message
+my_func_2 = my_outer_function() # this starts over with the original outer message
 
-my_functor() # this contatenates a second time
-my_functor_2() # this only has 1 concatenation, like my_functor before
+my_func() # this contatenates a second time
+my_func_2() # this only has 1 concatenation, like my_functor before
 
 
 class Ship:

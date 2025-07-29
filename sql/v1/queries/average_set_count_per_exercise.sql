@@ -6,4 +6,5 @@ WITH set_count AS (
 SELECT r_id, e_id, AVG(set_count.set_count)
 FROM set_count
 GROUP BY set_count.e_id
+ORDER BY set_count.e_id
 ;
