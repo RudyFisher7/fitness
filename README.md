@@ -4,6 +4,12 @@ A project I use for refreshing myself in SQL and Python.
 
 It manages/seeds a database of exercises and users for tracking progress.
 
+## Vision
+Inspired by Hevy, my goal is to create a free and open source app for tracking your fitness progress.
+To achieve this, data will be hosted locally or in free third-party places (e.g., using a Youtube channel to link to exercise demos).
+Peer-to-peer networking is planned for social engagement.
+In honesty, Godot would be a perfect fit for this (and would streamline a lot of work), but I also want to explore tech stacks more commonly used in the corporate world.
+
 ## Current state of project
 Still working to achieve v1.0.
 
