@@ -9,6 +9,7 @@ dataframe_1 = pd.DataFrame({
     favorite_exercises.name: favorite_exercises,
 })
 
+# Get the data's basic info.
 print(dataframe_1)
 print(dataframe_1.shape)
 print(dataframe_1.describe())
@@ -20,17 +21,16 @@ print(dataframe_1.query("date_of_birth < @y2k"))
 print(dataframe_1.query("date_of_birth.dt.year < 2000"))
 print(dataframe_1[dataframe_1["date_of_birth"].dt.year.between(1900, 1999)])
 
+# Group by birth decade and count how many occurance of each value in each decade.
 birth_decade = (dataframe_1["date_of_birth"].dt.year // 10) * 10
 dataframe_2 = dataframe_1.copy(True)
 dataframe_2["birth_decade"] = birth_decade
-
 print(dataframe_2)
 print(dataframe_2.groupby("birth_decade").count())
 
+# Calculate the ages of each user in the table and get statistics about them.
 now = datetime.now()
 ages = dataframe_1["date_of_birth"].apply(lambda dob: now.year - dob.year - (1 if (now.month, now.day) < (dob.month, dob.day) else 0))
 dataframe_2["age"] = ages
-
 print(dataframe_2)
-
 print(f"median: {dataframe_2["age"].median()}, mean: {dataframe_2["age"].mean()}, std dev: {dataframe_2["age"].std()}")
