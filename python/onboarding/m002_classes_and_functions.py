@@ -1,4 +1,10 @@
 
+# OOP's 4 fundamental principles
+# 1. Encapsulation - bundle data and the methods that act on them together, protect/hide internal state
+# 2. Polymorphism - derived-class objects can be used like super-class objects, methods can be overloaded for specialization
+# 3. Inheritance - inherite behavior and/or data from super class, one mechanism that allows polymorphism to work
+# 4. Abstraction - hide complexities and expose only what interfacing code needs to know to use, interfaces or abstract classes are 2 mechanisms for this
+
 class Person:
     instance_count: int = 0
 
@@ -14,6 +20,7 @@ class Person:
 
     def __init__(self, in_name: str) -> None:
         self.name = in_name
+        self._protected_name = "my protected name" # not enforced by interpretor, just a convention
         Person.instance_count += 1
     
     def __del__(self) -> None:
@@ -27,6 +34,9 @@ class Person:
 
     # A method.
     # Has access to the object instance it is called on via the self argument.
+    def get_protected_name(self) -> str:
+        return self._protected_name
+
     def say_hi(self) -> str:
         return "hi"
 
