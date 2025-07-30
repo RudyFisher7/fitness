@@ -1,12 +1,47 @@
 name,description,muscle_groups,work_types,photo_url
-Push-Up,Bodyweight chest and triceps exercise,26,4,NULL
-Pull-Up,Upper body pulling motion,640,4,NULL
-Bicep Curl,Isolated biceps movement using dumbbells,1,4,NULL
-Squat,Compound lower body exercise with barbell,12288,4,NULL
-Plank,Core stabilizing isometric hold,1536,1,NULL
-Deadlift,Full-body posterior chain lift with barbell,22528,4,NULL
-Shoulder Press,Overhead pressing movement with dumbbells,52,4,NULL
-Band Row,Back-strengthening exercise using resistance bands,1024,4,NULL
-Crunch,Abdominal isolation movement,512,4,NULL
-Calf Raise,Targeted exercise for calves with dumbbells,16384,4,NULL
-Kettlebell Swing,Explosive posterior chain movement,24576,5,NULL
+Push-Up,Bodyweight chest and triceps exercise,52,8,NULL
+Deadlift,Full-body posterior chain lift with barbell,12582920,12,NULL
+Shoulder Press,Overhead pressing movement with dumbbells,448,12,NULL
+Band Row,Back-strengthening exercise using resistance bands,10752,12,NULL
+Lat Pulldown,Vertical pulling for lat development,8192,12,NULL
+name,description,muscle_groups,work_types,photo_url
+Cable Fly,Chest isolation using cables,48,12,NULL
+Barbell Row,Compound pulling movement for back,10496,12,NULL
+Incline Dumbbell Press,Chest-focused dumbbell press at incline,48,12,NULL
+Band Tricep Extension,Triceps-focused resistance band movement,4,12,NULL
+Landmine Rotation,Rotational core drill using landmine setup,196608,12,NULL
+Cable Reverse Fly,Rear delts and rhomboids isolation,8704,12,NULL
+Dumbbell Lateral Lunge,Lateral movement with glute/quad load,29360128,12,NULL
+Banded Glute Kickback,Glute isolation using resistance bands,1048576,12,NULL
+Barbell Front Squat,Quad-dominant barbell squat,33587200,12,NULL
+Cable Upright Row,Traps and delts pulling exercise,576,12,NULL
+Isometric Wall Push,Chest/arm tension without movement,52,1,NULL
+Chest Squeeze Press,Isolated pec contraction using dumbbells,48,12,NULL
+Kettlebell Clean,Dynamic posterior chain lift,12582912,12,NULL
+Medicine Ball Slam,Explosive core and posterior chain movement,12582912,12,NULL
+Barbell Good Morning,Hamstring/glute/posterior chain hinge,12582912,12,NULL
+Dumbbell Step-Up,Unilateral leg press with dumbbells,11534336,12,NULL
+Copenhagen Plank,Adductor-targeting isometric core hold,16777216,1,NULL
+Trap Bar Shrug,Upper traps isolation with trap bar,512,12,NULL
+Cable External Rotation,Rotator cuff movement via resistance,8704,12,NULL
+Barbell Hip Bridge,Hip thrust variant under barbell load,1048576,12,NULL
+Plate Pinch Hold,Grip endurance hold using plates,1,4,NULL
+Reverse Crunch,Ab isolation with controlled curl,131072,8,NULL
+Kettlebell Goblet Reverse Lunge,Unilateral glute/quad load with KB,29360128,12,NULL
+Dumbbell Renegade Row,Plank plus back pull for core/back,10752,12,NULL
+Cable Internal Rotation,Shoulder stability drill with cable,8704,12,NULL
+Battle Rope Waves,Explosive arm/core endurance movement,60,4,NULL
+Resistance Band Pull-Through,Hip hinge targeting posterior chain,12582912,12,NULL
+Sled Push,Leg drive and trunk stiffness drill,11534336,6,NULL
+Barbell Bench Row,Chest-supported back strength move,10496,12,NULL
+Machine Leg Extension,Quad isolation with selectorized weight,4194304,12,NULL
+Landmine Squat,Barbell front squat variation,29360128,12,NULL
+Banded Pallof Press,Anti-rotation core drill with band,196608,12,NULL
+Barbell Wrist Curl,Forearm isolation seated movement,1,12,NULL
+Suspension Push-Up,Chest/triceps move using TRX/suspension,52,12,NULL
+Resistance Band Lateral Walk,Glute medius/abductors activation,2097152,12,NULL
+Kettlebell Overhead Carry,Grip/shoulder/core loaded carry,131080,6,NULL
+Banded Squat to Row,Leg and back combo with resistance band,29370560,12,NULL
+Bicycle Crunch,Dynamic oblique/abs combo movement,196608,8,NULL
+Plank to Push-Up,Core/isometric plus upper body press,196660,8,NULL
+Resistance Band Face Pull,Rear delt/traps movement with band,8704,12,NULL

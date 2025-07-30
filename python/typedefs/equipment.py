@@ -7,3 +7,5 @@ class Equipment(Enum):
     DUMBBELL = 3
     KETTLEBELL = 4
     WEIGHTED_WEARABLES = 5
+    SUSPENSION = 6
+    MACHINE = 7
