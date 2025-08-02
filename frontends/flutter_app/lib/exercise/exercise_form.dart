@@ -1,7 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_spinbox/flutter_spinbox.dart';
+import 'package:flutter_app/exercise/exercise_list_view.dart';
+import 'package:go_router/go_router.dart';
 
 class ExerciseForm extends StatefulWidget {
   const ExerciseForm({super.key});
@@ -21,6 +22,7 @@ class _ExerciseFormState extends State {
       mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
+        ElevatedButton(onPressed: () => context.push('/exercise_list'), child: Text('Choose Exercise')),
         DropdownButton<String>(
           value: value,
           items: options.map((String val) {
