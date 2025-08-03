@@ -14,8 +14,14 @@ class _ExerciseListPopupButtonState extends State {
 
   @override
   Widget build(BuildContext context) => PopupMenuButton(
+    tooltip: 'Add Exercise',
     position: PopupMenuPosition.over,
-    icon: Icon(Icons.add),
+    child: Row(
+      children: [
+        Icon(Icons.add),
+        Text('Add Exercise'),
+      ],
+    ),
     onSelected: (value) {
       final snackBar = SnackBar(
         content: Text('$value'),

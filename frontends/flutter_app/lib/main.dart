@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: const Text('Welcome!'),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => context.go('/routine'),
+        onPressed: () => context.push('/routine'),
         tooltip: 'Start new routine.',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
