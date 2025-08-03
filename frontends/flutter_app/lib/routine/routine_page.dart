@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_app/exercise/exercise_form.dart';
+import 'package:flutter_app/exercise/exercise_list_popup_button.dart';
 
 class RoutinePage extends StatefulWidget {
   const RoutinePage({super.key});
@@ -22,10 +23,7 @@ class _RoutinePageState extends State {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             ExerciseForm(),
-            ElevatedButton(
-              child: const Icon(Icons.add),
-              onPressed: () => {},
-            ),
+            ExerciseListPopupButton(),
           ],
         ),
       ),

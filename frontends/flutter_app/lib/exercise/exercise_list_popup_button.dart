@@ -1,20 +1,39 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_app/exercise/exercise_card.dart';
-import 'package:go_router/go_router.dart';
 
-class ExerciseListView extends StatefulWidget {
-  const ExerciseListView({super.key});
+class ExerciseListPopupButton extends StatefulWidget {
+  const ExerciseListPopupButton({super.key});
 
   @override
-  State<StatefulWidget> createState() => _ExerciseListViewState();
+  State<StatefulWidget> createState() => _ExerciseListPopupButtonState();
   
 }
 
-class _ExerciseListViewState extends State {
+class _ExerciseListPopupButtonState extends State {
 
   @override
-  Widget build(BuildContext context) => Scaffold(
+  Widget build(BuildContext context) => PopupMenuButton(
+    position: PopupMenuPosition.over,
+    icon: Icon(Icons.add),
+    onSelected: (value) {
+      final snackBar = SnackBar(
+        content: Text('$value'),
+        duration: Duration(seconds: 4),
+      );
+
+      ScaffoldMessenger.of(context).showSnackBar(snackBar);
+    },
+    itemBuilder: (context) => [
+      for (int i = 0; i < 100; ++i) PopupMenuItem(
+        value: i,
+        child: ExerciseCard(),
+      )
+    ],
+  );
+  
+  
+  /*Scaffold(
     bottomNavigationBar: BottomNavigationBar(
       items: [
         BottomNavigationBarItem(icon: Icon(Icons.arrow_back), label: 'Back'),
@@ -37,6 +56,6 @@ class _ExerciseListViewState extends State {
         ),
       ),
     ),
-  );
+  );*/
   
 }

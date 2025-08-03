@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/exercise/exercise_list_view.dart';
+import 'package:flutter_app/exercise/exercise_list_popup_button.dart';
 import 'package:flutter_app/routine/routine_page.dart';
 import 'package:go_router/go_router.dart';
 
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       ),
       GoRoute(
         path: '/exercise_list',
-        builder: (context, state) => ExerciseListView(),
+        builder: (context, state) => ExerciseListPopupButton(),
       ),
     ]
   );
