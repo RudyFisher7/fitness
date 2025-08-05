@@ -6,7 +6,13 @@
 // Variables
 let my_var_1 = 1;
 var my_var_2 = {
-    my_var_2_property: 2
+    my_var_2_property: 2,
+    my_var_2_function_1: function(value) {
+        return value + this.my_var_2_property;
+    },
+    my_var_2_function_2: function(value) {
+        return value - this.my_var_2_property;
+    },
 };
 
 const MY_PI_CONSTANT = 3.14;
@@ -15,7 +21,7 @@ const MY_OBJECT_CONSTANT = {
 };
 
 const { my_var_2_property } = my_var_2; // Destructuring
-console.log(`my_var_2_property: ${my_var_2_property} == my_var_2.my_var_2_property: ${my_var_2.my_var_2_property}`);
+console.log(`my_var_2_property: ${my_var_2_property} == my_var_2.my_var_2_property: ${my_var_2.my_var_2_property} == my_var_2['my_var_2_property']: ${my_var_2['my_var_2_property']}`);
 
 // Scopes
 
@@ -50,7 +56,7 @@ function my_hoisted_function() {
 }
 
 // Global this has global variables.
-console.log(globalThis);
+// console.log(globalThis);
 
 // Data types
 // Variables can change their types whenever by assigning values of different types to them.
